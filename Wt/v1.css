@@ -1,0 +1,49 @@
+h1{
+  font-size: 40px;
+  font-family: arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-family: arial;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+section{
+    background: url(https://www.scrippscollege.edu/denison/wp-content/uploads/sites/29/Scripps-Denison-Library.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section p{
+  text-align: center;
+  padding: 250px;
+  font-size: 50px;
+  color: #ffffff
+}
+div.register{
+  background-image: url(https://image.freepik.com/free-photo/multiple-uncompleted-election-questionnaires_23-2148265535.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
